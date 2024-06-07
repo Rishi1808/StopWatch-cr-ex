@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dad Jokes</title>
-    <link rel="stylesheet" href="style.css/style.css">
+    <title>Stopwatch and Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h2>Need a Chuckle? Try These Dad Jokes!</h2>
-        <p id="jokeElement" class="card">Smile in 3... 2... 1...</p>
+        
+
+        <div class="stopwatch">
+            <h2>Stopwatch</h2>
+
+            <div id="stopwatchDisplay">00:00:00</div>
+            <div class="start-stop">
+                <button id="startStopwatch" class="button-50" role="button">Start</button>
+                <button id="stopStopwatch" class="button-50" role="button">Stop</button>
+            </div>
+            <div class="lap-reset">
+                <button id="resetStopwatch" class="button-50" role="button">Reset</button>
+                <button id="lapStopwatch" class="button-50" role="button">Lap</button>
+            </div>
+        </div>
+      <a href="https://github.com/Rishi1808" id="redirectLink"><h2 class="contact">DEVELOPER</h2></a>
     </div>
-    <script src="app.js"></script>
+
+    <script src="popup.js"></script>
 </body>
 
 </html>
